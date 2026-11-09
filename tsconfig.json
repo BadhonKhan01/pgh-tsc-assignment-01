@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",   
+
+    // Recommended Options
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleDetection": "force"
+  }
+}
