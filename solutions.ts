@@ -1,9 +1,7 @@
-// Problem 1
 function multiplyValue(value: number, multiplier: number = 2): number {
     return value * multiplier;
 }
 
-// Problem 2
 function processInput(value: string | number | boolean): string | number {
     if(typeof value === "boolean"){
         return (value === true) ? "Active" : "Inactive";
@@ -14,18 +12,14 @@ function processInput(value: string | number | boolean): string | number {
     return value.trim().toLowerCase();
 }
 
-// Problem 3
 function formatCoordinate(value: readonly [number, number, string]): string {
     const [latitude, longitude, locationName] = value;
     return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
 
-// Problem 4
 function concatenateArrays <T>(...arrays: T[][]): T[] {
     return arrays.flat();
 }
-
-// Problem 5
 
 interface Course {
     title: string,
@@ -51,9 +45,6 @@ const courses = [
   { title: "Next.js Pro", students: 85, isPublished: true }
 ];
 
-// getPopularCourses(courses, 80);
-
-// Problem 6
 function pluckValues <T, K extends keyof T>(items: T[], key: K): T[K][] {
     return items.map(item => item[key]);
 }
@@ -64,13 +55,6 @@ const users = [
   { id: 3, name: "Tariq", role: "Subscriber" }
 ];
 
-// console.log(
-// pluckValues(users, "name"),
-// pluckValues(users, "id")
-// );
-
-
-// Problem 7
 class Employee {
 
     protected name: string;
@@ -105,15 +89,9 @@ const manager = new Manager("Alice", 50000, "Engineering");
 const details = manager.getDetails();
 const roleInfo = manager.getRoleInfo();
 
-// console.log(details);
-// console.log(roleInfo);
-
-
-// Problem 8
-
-function validateAgeAsync(age: number): Promise<string>{
+async function validateAgeAsync(age: number): Promise<string>{
     if(age >= 18){
-        return new Promise((resolve) => {
+        return await new Promise((resolve) => {
             setTimeout(() => {
                 resolve("Access Granted");                
             }, 1000);
@@ -124,7 +102,8 @@ function validateAgeAsync(age: number): Promise<string>{
 }
 
 validateAgeAsync(30).then((msg) => {
-    console.log(msg);
+
+    
 }).catch((error) => {
-    console.log(error);
+
 })

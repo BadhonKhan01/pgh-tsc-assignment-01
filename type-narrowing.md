@@ -1,4 +1,4 @@
-# What is Type Narrowing in TypeScript?
+# Type Narrowing in TypeScript
 ### TypeScript এ Type Narrowing কী?
 
 ## Introduction

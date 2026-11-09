@@ -1,4 +1,4 @@
-# How Does TypeScript's Type Hierarchy Work?
+# TypeScript Type Hierarchy
 ### TypeScript এর Type Hierarchy কীভাবে কাজ করে?
 
 ## Introduction
