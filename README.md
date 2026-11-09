@@ -2,7 +2,7 @@
 
 ## অ্যাসাইনমেন্ট পরিচিতি
 
-এই Repository-তে আমার TypeScript Assignment 01-এর সকল সমাধান সংরক্ষিত রয়েছে। এই অ্যাসাইনমেন্টের মাধ্যমে TypeScript-এর গুরুত্বপূর্ণ বিষয়গুলো অনুশীলন করেছি, যেমন:
+এই Repository তে আমার TypeScript Assignment 01 এর সকল সমাধান সংরক্ষিত রয়েছে। এই অ্যাসাইনমেন্টের মাধ্যমে TypeScript এর গুরুত্বপূর্ণ বিষয়গুলো অনুশীলন করেছি, যেমন:
 
 - নির্দিষ্ট Parameter এবং Return Type সহ Function তৈরি।
 - Union Type এবং Type Narrowing।
@@ -20,7 +20,7 @@
 
 ## ব্লগ পোস্ট
 
-TypeScript-এর গুরুত্বপূর্ণ বিষয়গুলো নিয়ে আমার লেখা দুটি ব্লগ:
+TypeScript এর গুরুত্বপূর্ণ বিষয়গুলো নিয়ে আমার লেখা দুটি ব্লগ:
 
 ১. [TypeScript Type Hierarchy (টাইপস্ক্রিপ্টের টাইপ হায়ারার্কি)](./typescript-type-hierarchy.md)
 
