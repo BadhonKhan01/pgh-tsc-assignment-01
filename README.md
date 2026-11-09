@@ -22,7 +22,7 @@
 
 TypeScript-এর গুরুত্বপূর্ণ বিষয়গুলো নিয়ে আমার লেখা দুটি ব্লগ:
 
-১. [TypeScript Type Hierarchy (টাইপস্ক্রিপ্টের টাইপ হায়ারার্কি)](./typescripts-type-hierarchy.md)
+১. [TypeScript Type Hierarchy (টাইপস্ক্রিপ্টের টাইপ হায়ারার্কি)](./typescript-type-hierarchy.md)
 
 ২. [Type Narrowing in TypeScript (টাইপস্ক্রিপ্টে টাইপ ন্যারোইং)](./type-narrowing.md)
 
